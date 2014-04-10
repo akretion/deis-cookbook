@@ -1,6 +1,16 @@
 ## Change Log
 
-## v0.7.0 (TBD)
+### v0.8.0 (2014/04/10 21:53 +00:00)
+- [77a1d84](https://github.com/opdemand/deis-cookbook/commit/77a1d8487dd6203cb7c5ab89b67a4db8110aa3f9) Switch master to v0.8.0 (@carmstrong)
+- [d3f36f2](https://github.com/opdemand/deis-cookbook/commit/d3f36f21452cb723fae5c655598fce9d607bf747) ChefSpec Runners have been added to Docker cookbook (@bflad)
+- [6b4d8f6](https://github.com/opdemand/deis-cookbook/commit/6b4d8f6296b72213e77af58ddc0fabb2401d2f6e) Update docker cookbook dependency to 0.33.1 (@bflad)
+- [#111](https://github.com/opdemand/deis-cookbook/pull/111) Merge pull request #111 from bflad/chefspec_runners_docker (@bflad)
+- [d2699f6](https://github.com/opdemand/deis-cookbook/commit/d2699f6e3e52f12c62cb0c6cf70a4a015673b7e5) fix(runtime): fix branching logic for proxies (@bacongobbler)
+- [#112](https://github.com/opdemand/deis-cookbook/pull/112) Merge pull request #112 from opdemand/692-app-deploy-fails (@opdemand)
+- [52589f1](https://github.com/opdemand/deis-cookbook/commit/52589f1d4701b029083017afba14c6f40746c32d) Update container paths for Deis v0.7.0 (@carmstrong)
+- [#113](https://github.com/opdemand/deis-cookbook/pull/113) Merge pull request #113 from opdemand/release-v0.9.0 (@opdemand)
+
+### v0.7.0 (TBD)
 - [#108](https://github.com/opdemand/deis-cookbook/pull/108) Adds Chefspec tests
 - [#109](https://github.com/opdemand/deis-cookbook/pull/109) Adds serverspec tests
 - [#107](https://github.com/opdemand/deis-cookbook/pull/107) Remove 'wait-for*' blocks

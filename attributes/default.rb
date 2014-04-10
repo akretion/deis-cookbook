@@ -26,7 +26,7 @@ default.docker.container_cmd_timeout = 600
 default.docker.image_cmd_timeout = 1800
 
 # discovery
-default.deis.etcd.repository = 'deis/discovery'
+default.deis.etcd.repository = 'deisreleases/discovery-v0.7.0'
 default.deis.etcd.tag = 'latest'
 default.deis.etcd.container = 'deis-discovery'
 default.deis.etcd.port = 4001
@@ -34,7 +34,7 @@ default.deis.etcd.peer_port = 7001
 default.deis.etcd.url = 'https://github.com/coreos/etcd/releases/download/v0.3.0/etcd-v0.3.0-linux-amd64.tar.gz'
 
 # database
-default.deis.database.repository = 'deis/database'
+default.deis.database.repository = 'deisreleases/database-v0.7.0'
 default.deis.database.tag = 'latest'
 default.deis.database.container = 'deis-database'
 default.deis.database.port = 5432
@@ -45,19 +45,19 @@ default.deis.database_data.tag = 'latest'
 default.deis.database_data.container = 'deis-database-data'
 
 # cache
-default.deis.cache.repository = 'deis/cache'
+default.deis.cache.repository = 'deisreleases/cache-v0.7.0'
 default.deis.cache.tag = 'latest'
 default.deis.cache.container = 'deis-cache'
 default.deis.cache.port = 6379
 
 # server
-default.deis.server.repository = 'deis/controller'
+default.deis.server.repository = 'deisreleases/controller-v0.7.0'
 default.deis.server.tag = 'latest'
 default.deis.server.container = 'deis-controller'
 default.deis.server.port = 8000
 
 # registry
-default.deis.registry.repository = 'deis/registry'
+default.deis.registry.repository = 'deisreleases/registry-v0.7.0'
 default.deis.registry.tag = 'latest'
 default.deis.registry.container = 'deis-registry'
 default.deis.registry.port = 5000
@@ -89,7 +89,7 @@ default.deis.registry_data.tag = 'latest'
 default.deis.registry_data.container = 'deis-registry-data'
 
 # builder
-default.deis.builder.repository = 'deis/builder'
+default.deis.builder.repository = 'deisreleases/builder-v0.7.0'
 default.deis.builder.tag = 'latest'
 default.deis.builder.container = 'deis-builder'
 default.deis.builder.port = 2222
@@ -110,7 +110,7 @@ default.deis.builder.packs.defaults = { # rubocop:disable SpaceBeforeFirstArg
 }
 
 # logger
-default.deis.logger.repository = 'deis/logger'
+default.deis.logger.repository = 'deisreleases/logger-v0.7.0'
 default.deis.logger.tag = 'latest'
 default.deis.logger.container = 'deis-logger'
 default.deis.logger.port = 514

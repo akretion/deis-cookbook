@@ -17,7 +17,7 @@ formations.each do |f|
   # skip this node if it's not part of this formation
   next unless formation['nodes'].keys.include? node.name
   # skip this node if it's not part of the runtime
-  next if formation['nodes'][node.name]['runtime'] == true
+  next if formation['nodes'][node.name]['runtime'] != true
 
   formation['apps'].each_pair do |app_id, app|
 
