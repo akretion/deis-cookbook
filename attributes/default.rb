@@ -4,7 +4,7 @@ default.docker.version = '0.9.0'
 # use lxc execution driver until libcontainer is more stable
 default.docker.exec_driver = 'lxc'
 # bind docker to all interfaces for external connectivity
-default.docker.bind_uri = 'tcp://0.0.0.0:4243'
+default.docker.host = %w(unix:///var/run/docker.sock tcp://0.0.0.0:4243)
 
 ## rsyslog
 default.rsyslog.server_search = 'run_list:recipe\[deis\:\:controller\]'
