@@ -1,10 +1,10 @@
 # Deis Cookbook
-The [opdemand/deis-cookbook](https://github.com/opdemand/deis-chef) project
+The [deis/deis-cookbook](https://github.com/deis/deis-cookbook) project
 contains Chef recipes for provisioning Deis nodes.
 To get started with your own private PaaS, check out the
-[Deis](https://github.com/opdemand/deis) project.
+[Deis](https://github.com/deis/deis) project.
 
-[![Build Status](https://travis-ci.org/opdemand/deis-cookbook.png)](https://travis-ci.org/opdemand/deis-cookbook)
+[![Build Status](https://travis-ci.org/deis/deis-cookbook.png)](https://travis-ci.org/deis/deis-cookbook)
 
 ## Requirements
 
@@ -72,7 +72,7 @@ Contributions are welcome! Please open a pull request after fully testing your c
 This cookbook tests Ruby style with [rubocop](https://github.com/bbatsov/rubocop), Chef style with [foodcritic](http://acrmp.github.io/foodcritic/),
 unit tests with [ChefSpec](https://github.com/sethvargo/chefspec) and a full integration with [test-kitchen](http://kitchen.ci/).
 
-See [CONTRIBUTING](https://github.com/opdemand/deis-cookbook/blob/master/CONTRIBUTING.md) for more details.
+See [CONTRIBUTING](https://github.com/deis/deis-cookbook/blob/master/CONTRIBUTING.md) for more details.
 
 # License
 

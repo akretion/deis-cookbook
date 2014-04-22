@@ -15,7 +15,7 @@ package 'ntp'
 
 # Install gems
 #
-# force macaddr version, see https://github.com/opdemand/deis/issues/552
+# force macaddr version, see https://github.com/deis/deis/issues/552
 chef_gem 'macaddr' do
   action :remove
   not_if '/opt/chef/embedded/bin/gem list macaddr | grep "(1.6.1)"'
