@@ -1,12 +1,15 @@
 ---
 driver:
-  name: vagrant
-
-provisioner:
-  name: chef_zero
+  name: digitalocean
+  flavor: 4GB
 
 platforms:
   - name: ubuntu-12.04
+
+provisioner:
+   name: chef_zero
+   data_bags_path: <%= File.expand_path('../../data_bags') %>
+   encrypted_data_bags_path: <%= File.expand_path('../../data_bags') %>
 
 suites:
   - name: controller
